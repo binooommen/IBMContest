@@ -1,4 +1,4 @@
-IBMContest
+game for IBMContest
 ======================stage 1======================
 1, set development environment with netbeans 8.0.1
 2, chose and design the core rule of game for the contest
