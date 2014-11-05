@@ -4,12 +4,12 @@
  * and open the template in the editor.
  */
 
-package ca.lambtoncollege.strategicmaster.server;
+package ca.lambtoncollege.strategicmaster.client;
 
 /**
  *
- * @author alpenliebe
+ * @author alpenliebe <alpseinstein@gmail.com>
  */
-public class Server {
+public class Unit {
     
 }
