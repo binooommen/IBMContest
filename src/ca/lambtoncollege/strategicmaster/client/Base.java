@@ -13,11 +13,19 @@ import java.util.LinkedList;
  * @author alpenliebe
  */
 public class Base {
-    LinkedList baseList = null;
-    int team;
+    private int team;
+    private LinkedList baseList = null;
+    private Unit unit;
     
     Base(){
-        this.baseList = new LinkedList();
         this.team=0;
+        this.baseList = new LinkedList();
+        this.unit=new Unit();
     }
+    
+    Base(int amount){
+        this();
+        this.unit.setAmount(amount);
+    }
+    
 }
