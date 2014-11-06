@@ -6,10 +6,18 @@
 
 package ca.lambtoncollege.strategicmaster.client;
 
+import java.util.LinkedList;
+
 /**
  *
  * @author alpenliebe
  */
 public class Base {
+    LinkedList baseList = null;
+    int team;
     
+    Base(){
+        this.baseList = new LinkedList();
+        this.team=0;
+    }
 }
