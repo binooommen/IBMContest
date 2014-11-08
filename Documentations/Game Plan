@@ -1,0 +1,8 @@
+Game Plan
+1, Client opens the site and is automatically added if there is another client waiting, else that client goes into waiting state.
+2, After displaying the basic rules dialog box, and informing which side the client is playing. The game starts
+3, At start there will be one unit for each of the client with 10 tanks each.
+4, Every 2 seconds a new tank is generated in every unit except the neutral unit.
+5, To kill one enemy tank we need one tank but both of them gets destroyed.
+6, To gain a UNIT you need to have at least one tank inside.
+7, First team to conquer all units win the battle 
